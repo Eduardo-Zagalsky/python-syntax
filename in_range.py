@@ -16,6 +16,9 @@ def in_range(nums, lowest, highest):
     """
 
     # YOUR CODE HERE
+    for datum in nums:
+      if datum > lowest and datum < highest:
+        print(datum)
 
 
 in_range([10, 20, 30, 40, 50], 15, 30)            
